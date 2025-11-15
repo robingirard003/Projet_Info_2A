@@ -20,7 +20,7 @@ graph LR
             CLI<-->SVC
             API<-->SVC
             SVC<-->DAO
-        end
+        END
     USR3<--->API
 
     DAO<--->DB
