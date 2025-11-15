@@ -6,12 +6,12 @@ graph LR
     USR1((Customer))
     USR2((Deliverer))
     USR3((Admin))
-    DB[("fa:fa-database App Database (PostgreSQL)" )]
-    CLI(fa:fa-python CLI)
-    API(fa:fa-python API / WebService)
-    DAO(fa:fa-python DAO)
-    SVC(fa:fa-python Service / Controllers )
-    MDB[(fa:fa-database Google Maps DB)]
+    DB[(" App Database (PostgreSQL)" )]
+    CLI(CLI)
+    API(API / WebService)
+    DAO(DAO)
+    SVC(Service / Controllers )
+    MDB[(Google Maps DB)]
     MDBAPI(Google Maps API)
 
     USR1<--->CLI
