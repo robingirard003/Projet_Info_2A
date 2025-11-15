@@ -1,3 +1,4 @@
+``` mermaid
 ---
 title: Architecture overview
 ---
@@ -19,6 +20,7 @@ graph LR
             CLI<-->SVC
             API<-->SVC
             SVC<-->DAO
+```
         end
     USR3<--->API
 
