@@ -20,10 +20,10 @@ graph LR
             CLI<-->SVC
             API<-->SVC
             SVC<-->DAO
-```
         end
     USR3<--->API
 
     DAO<--->DB
     MDBAPI <--> MDB
     SVC <--> MDBAPI
+```
